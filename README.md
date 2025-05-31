@@ -37,9 +37,9 @@
             "trade_name": "БиКНУ",
             "drug_id": "a87f8bf4-c9cf-4581-90a3-cf037a953518",
             "file_name": "d9de5e80-5158-42b7-a51a-6d414cda6a5e.pdf",
-            "chunk_id": 0,
-            "document_id": 364,
-            "score": 0.9926256346917622,
+            "chunk_id": 4,
+            "document_id": 1494,
+            "score": 0.6413100537906452,
             "text": "Перед применением препарата…"
           }
         ],
@@ -51,9 +51,9 @@
             "trade_name": "БиКНУ",
             "drug_id": "a87f8bf4-c9cf-4581-90a3-cf037a953518",
             "file_name": "d9de5e80-5158-42b7-a51a-6d414cda6a5e.pdf",
-            "chunk_id": 0,
-            "document_id": 364,
-            "score": 0.31226513353146307,
+            "chunk_id": 1,
+            "document_id": 1824,
+            "score": 0.9356999454877224,
             "text": "Он может навредить им, даже если симптомы…"
           }
         ]
