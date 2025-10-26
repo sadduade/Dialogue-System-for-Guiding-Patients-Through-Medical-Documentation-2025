@@ -1,9 +1,9 @@
 ## Диалоговая система для консультирования пациентов по медицинской документации 
 
-### 📄 About
+### About
 В данном проекте представлен чат-бот, предназначенный для помощи пациентам, разработанный методами Retrieval-Augmented Generation (RAG). Чат-бот предоставляет ответы на основе инструкций к противоопухолевым препаратам, взятых с сайта «Государственный реестр лекарственных средств» (ГРЛС). 
 
-### ⚙️ Features
+### Features
 **• Ensemble Retriever:** FAISS + BM25 c Reciprocal Rank Fusion (RRF)
 
 **• Reranking:** Cross-Encoder (BAAI/bge-reranker-v2-m3)
@@ -12,7 +12,7 @@
 
 **• Evaluation:** Precision@k, Recall@k и метрики из библиотеки RAGAS (LLM Based Context Precision, Response Relevancy, Faithfulness)
 
-### 📊 Dataset
+### Dataset
 Датасет состоит из пар вопросов и ответов. У каждого найденного фрагмента есть метаданные:
 
 - `"mnn"` – международное непатентованное наименование (действующее вещество);
@@ -96,10 +96,10 @@
 }
 ```
 
-### 📁 Data Access
+### Data Access
 Из-за ограничений на размер файлов на GitHub некоторые материалы хранятся на Google Drive:
 
-🔗 [Developing a dialogue system for guiding patients through medical documentation](https://drive.google.com/drive/folders/1Ep5nAj1kOB0OG4K6YA6oaCNyKqOHsTvN?usp=sharing)
+[Developing a dialogue system for guiding patients through medical documentation](https://drive.google.com/drive/folders/1Ep5nAj1kOB0OG4K6YA6oaCNyKqOHsTvN?usp=sharing)
 
 - `Instructions.zip` – исходные инструкции в формате PDF;
 - `updated_ocr_instructions` – извлеченные инструкции с помощью Tesseract-OCR; 
